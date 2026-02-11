@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides an easy workflow for calculating and visualizing the thermoelectric transport properties of Metal-Organic Frameworks (MOFs)(or others materials) using **BoltzTraP2**.
+This repository provides an easy workflow for calculating and visualizing the thermoelectric transport properties of Metal-Organic Frameworks (MOFs)(or other materials) using **BoltzTraP2**.
 
 While the current setup is demonstrated on the **ZnPHC MOF**, the pipeline is modular. By simply updating the source directory path, you can apply this workflow to any material with VASP-calculated band structures.
 
