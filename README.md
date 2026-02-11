@@ -45,7 +45,7 @@ Ensure your VASP folder contains:
 * `vasprun.xml`
 * `OUTCAR`
 * `POSCAR`
-* `POTCAR` (required for some BoltzTraP2 versions)
+
 
 ### 3. Execution
 
@@ -70,12 +70,6 @@ Run the cells in `BoltzTraP2_Final.ipynb` sequentially:
 * `BoltzTraP2_Final.ipynb`: The primary executable pipeline.
 * `BoltzTraP2_Working/`: Automatically generated folder containing interpolation traces and processed data.
 * `transport_properties_ZnPHC.png`: Sample output plot.
-
-##  Troubleshooting
-
-* **File Missing:** Ensure `DFT_SOURCE_DIR` is correct. The script will throw an error if `vasprun.xml` is not found.
-* **Memory Limit:** If the kernel crashes during interpolation, lower the `INTERP_FACTOR` to 3 or 4.
-* **Silent Commands:** BoltzTraP2 runs in the background without standard output. Check your working folder for the `.bt2` file to verify progress.
 
 ---
 
