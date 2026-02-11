@@ -1,7 +1,3 @@
-This updated README is designed to be professional, "GitHub-ready," and clear for external users. I have structured it to highlight the **Automation** and **Adaptability** features, which makes it more valuable as a repository.
-
----
-
 # BoltzTraP2 Transport Pipeline for MOFs
 
 ## Overview
